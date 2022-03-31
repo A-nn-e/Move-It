@@ -235,7 +235,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa17d122634046b4a8e23048891fafc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_RaycastPrefab: {fileID: 0}
 --- !u!1 &770574184
 GameObject:
   m_ObjectHideFlags: 0
@@ -338,6 +337,21 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: f24b094eb26672045851d0aaf8e14c61,
         type: 3}
       propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f24b094eb26672045851d0aaf8e14c61,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f24b094eb26672045851d0aaf8e14c61,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f24b094eb26672045851d0aaf8e14c61,
+        type: 3}
+      propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f24b094eb26672045851d0aaf8e14c61,
@@ -474,6 +488,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_UseCustomMaterial: 0
   m_CustomMaterial: {fileID: 0}
+  m_UseCustomRendererAsset: 0
+  m_CustomRendererAsset: {fileID: 0}
 --- !u!114 &1858653949
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -488,9 +504,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_FocusMode: -1
   m_LightEstimationMode: -1
-  m_AutoFocus: 1
-  m_LightEstimation: 0
-  m_FacingDirection: 1
 --- !u!114 &1858653950
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -500,9 +513,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1858653946}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e3c44306fb1e439a9f18b2212b8ab70, type: 3}
+  m_Script: {fileID: 11500000, guid: 1c652b3ac3ae9fb448d05b8519bdd62f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  arObject: {fileID: 476605250}
+  raycastManager: {fileID: 611513982}
 --- !u!4 &1858653951
 Transform:
   m_ObjectHideFlags: 0
@@ -511,7 +526,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1858653946}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: -0.08, y: -1.58, z: 0.52}
+  m_LocalPosition: {x: -0.5, y: -1.85, z: 2.08}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 611513980}
@@ -561,7 +576,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_AttemptUpdate: 1
   m_MatchFrameRate: 1
-  m_TrackingMode: 2
 --- !u!4 &2075937165
 Transform:
   m_ObjectHideFlags: 0

@@ -23,4 +23,20 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Medical.unity
     guid: 1cd6fe07f7b1c8144b7e38b62faa4c7d
-  m_configObjects: {}
+  - enabled: 1
+    path: Assets/Scenes/medLia.unity
+    guid: 1ca448ba81b55e54b9e0843c07126e59
+  - enabled: 1
+    path: Assets/Scenes/medRavi.unity
+    guid: 238025c3e782dc641b577186e5e3f14b
+  - enabled: 1
+    path: Assets/Scenes/danMarcello.unity
+    guid: 1551978a8c3314343a32de7ad38eddda
+  - enabled: 1
+    path: Assets/Scenes/danJazz.unity
+    guid: 445e4f1209dd4d74196f5f84fd6ece43
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: b1dfede013ad9d449b04c737df616651,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 0d988548b47cb4945ad63f088a2f0570,
+      type: 2}

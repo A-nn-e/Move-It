@@ -10,4 +10,15 @@ public class options : MonoBehaviour
     {
         SceneManager.LoadScene(3);
     }
+
+
+    public void exercise()
+    {
+        SceneManager.LoadScene(6);
+    }
+
+    public void exercise2()
+    {
+        SceneManager.LoadScene(7);
+    }
 }
