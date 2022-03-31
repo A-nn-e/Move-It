@@ -3,8 +3,9 @@
 An AR based application for physical well being and education. 
 
 ## INSTRUCTIONS FOR BUILDING:
-1. Use minimum API level 24 while building the app (Android 7.0 Nougat).
-2. Use Gradle version 5.6.4 for successfully building the app.
+1. Use Unity for building the app.
+2. Use minimum API level 24 while building the app (Android 7.0 Nougat).
+3. Use Gradle version 5.6.4 for successfully building the app.
 
 ## INSTRUCTIONS FOR USE:
  1. Create a new profile if you are a new user otherwise use your credentials to login.
