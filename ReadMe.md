@@ -18,4 +18,4 @@ An AR based application for physical well being and education.
  8. The user can go closer to the character and get a full 360-degree view of the character.
  9. If the user wants they can enjoy this experience more by recording it and adding music. 
 
-Link to demo video: [LINK](https://www.youtube.com/watch?v=A3jqXZJB-HE)
+Link to demo video: [LINK](https://youtu.be/ABYA1smWJC8)
